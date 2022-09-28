@@ -23,7 +23,7 @@ function App() {
     setTimeout(() => {
       if (winner) {
         clearGame();
-        alert(`Ta da ! ${winner} won the Game !`);
+        alert(`MUBARIK HOO!!!!!!! ${winner} won the Game !`);
       }
     }, 1000);
   }, [gameState]);
