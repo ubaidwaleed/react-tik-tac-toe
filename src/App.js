@@ -25,7 +25,7 @@ function App() {
         clearGame();
         alert(`MUBARIK HOO!!!!!!! ${winner} won the Game !`);
       }
-    }, 1000);
+    }, 300);
   }, [gameState]);
 
   const checkWinner = () => {
